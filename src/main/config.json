@@ -1,0 +1,15 @@
+{
+  "posRootERC20": "",
+  "posChildERC20": "",
+  "posWETH": "",
+  "rootChainWETH": "",
+  "plasmaWETH": "",
+  "plasmaRootERC20": "",
+  "plasmaChildERC20": "",
+  "MATIC_RPC": "https://rpc-mumbai.maticvigil.com/",
+  "ETHEREUM_RPC": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+  "VERSION": "mumbai",
+  "NETWORK": "testnet",
+  "MATIC_CHAINID": 80001,
+  "ETHEREUM_CHAINID": 5
+}

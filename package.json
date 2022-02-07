@@ -1,0 +1,55 @@
+{
+  "name": "pos",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@maticnetwork/maticjs": "^3.2.2",
+    "@maticnetwork/maticjs-plasma": "^1.0.3",
+    "@maticnetwork/maticjs-web3": "^1.0.0",
+    "@maticnetwork/walletconnect-provider": "^0.0.1-beta.1",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@walletconnect/web3-provider": "^1.7.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "assert": "^2.0.0",
+    "crypto-browserify": "^3.12.0",
+    "hardhat": "^0.0.7",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "regenerator-runtime": "^0.13.9",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  }
+}
